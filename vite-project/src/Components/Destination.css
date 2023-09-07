@@ -1,0 +1,62 @@
+.Sdestinations{
+    background-color:#E5E5DB;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.STitle{
+    background-color:#E5E5DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    padding: 30px;
+    color: #A78C59;
+}
+
+.Sfeatured{
+    width: 100%;
+    
+    padding: 10px 40px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    z-index: 1;
+   
+}
+
+
+.SfeaturedItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    flex: 1;
+    width: 80%;
+    -webkit-box-shadow: -3px -1px 25px -8px rgba(133,124,133,1);
+    -moz-box-shadow: -3px -1px 25px -8px rgba(133,124,133,1);
+    box-shadow: -3px -1px 25px -8px rgba(133,124,133,1);
+}
+
+.SfeaturedImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.SfeaturedTitles{
+   position: absolute;
+   bottom: 20px;
+   left: 20px; 
+   font-size: 30px;
+
+   font-weight: 300;
+}
